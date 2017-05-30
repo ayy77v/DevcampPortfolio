@@ -9,9 +9,6 @@ module ApplicationHelper
      end 
 	end
 
-	def sample_helper
-	   content_tag(:div, "Mycontent", class: "my-class")
-	end
 
 	def source_helper(layout_name)
 	   if session[:source] 
