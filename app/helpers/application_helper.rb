@@ -21,4 +21,7 @@ module ApplicationHelper
     
     end
 
+    def copyright_generator
+          @copyright = Cool::View::Tool::Render.copyright 'Simon Wang', 'The Dark One'
+    end
 end

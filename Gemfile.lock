@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ayy77v/cool-view-tool.git
+  revision: 28e2da294f5dedd27b7c7989a4ed9a70a6394811
+  specs:
+    cool-view-tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -186,6 +192,7 @@ DEPENDENCIES
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
+  cool-view-tool!
   devise (~> 4.3)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)

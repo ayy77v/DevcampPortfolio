@@ -17,6 +17,8 @@
      <%= render "shared/nav", location: 'top' %>
     <%= login_helper %>
     <%= yield %>
+    <%= copyright_generator %>
+
     <% if session[:source] %>
       <h1>Thanks for visiting from <%= session[:source] %> </h1>
     <%end%>
