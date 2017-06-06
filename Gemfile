@@ -55,7 +55,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'friendly_id', '~> 5.1.0'
 
-gem 'cool-view-tool', git: 'https://github.com/ayy77v/cool-view-tool.git'
-
 gem 'devise', '~> 4.3'
 gem 'bootstrap', '~> 4.0.0.alpha6'
+
+gem 'cool-view-tool', '~> 0.1.0'

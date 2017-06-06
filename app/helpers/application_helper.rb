@@ -25,3 +25,5 @@ module ApplicationHelper
           @copyright = Cool::View::Tool::Render.copyright 'Simon Wang', 'The Dark One'
     end
 end
+
+
